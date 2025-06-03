@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="chatbot.png" alt="chatbot" class="chtbot-img" />
+      <h1>Your AI Assistant</h1>
+      <p>Ask anything, anytime. Powered by Gemini.</p>
+    </header>
+
+    <main>
+      <section class="features">
+        <div class="card">
+          <img src="conversation.jpg" alt="Chatbot Concept - Instant Answers" />
+          <h2>Instant Answers</h2>
+          <p>
+            Get real-time responses to your questions powered by intelligent AI.
+          </p>
+        </div>
+        <div class="card">
+          <img src="assistant.jpg" alt="AI Assistant - Smart Conversations" />
+          <h2>Smart Conversations</h2>
+          <p>
+            Engage in meaningful and helpful interactions with your virtual
+            assistant.
+          </p>
+        </div>
+        <div class="card">
+          <img src="24_7.jpg" alt="24/7 Availability - Always Available" />
+          <h2>Always Available</h2>
+          <p>Access help anytime, anywhere—our chatbot never sleeps.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Chat Button -->
+    <div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+    <!-- Chatbot Panel -->
+    <div class="chat-container" id="chatBox">
+      <iframe src="chatbot.php"></iframe>
+      <button class="chat-close" onclick="toggleChat()">✖</button>
+    </div>
+
+    <script>
+      function toggleChat() {
+        document.getElementById("chatBox").classList.toggle("open");
+      }
+    </script>
+  </body>
+</html>
