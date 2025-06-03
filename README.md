@@ -2,6 +2,8 @@
 
 This project is a simple yet powerful web-based AI chatbot powered by **Google's Gemini 1.5 Flash API**, built using PHP and HTML/CSS. It supports real-time conversation, session-based history, and is integrated into a responsive modern website with an animated chatbot popup.
 
+🙋‍♂️ Author
+Thisaru Kalpana
 ---
 
 ## 📌 Features
@@ -68,6 +70,3 @@ Replace the following line in `chatbot.php` with your own Gemini API key:
 
 ```php
 $apiKey = "xxxxxxxxxxxxxxxxxxxxxxxx";
-
-🙋‍♂️ Author
-Thisaru Kalpana
